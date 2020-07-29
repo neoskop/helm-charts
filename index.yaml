@@ -1,0 +1,330 @@
+apiVersion: v1
+entries:
+  cert-manager-webhook-dnsimple:
+    - apiVersion: v1
+      appVersion: 0.0.2
+      created: "2020-07-29T11:59:14.166879997+02:00"
+      description: A Helm chart for Kubernetes
+      digest: 73e8c3acb594fd4b640b4788e402a5bd54af2e80f723465efd3640dcebb99797
+      name: cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.0.2/cert-manager-webhook-dnsimple-0.0.2.tgz
+      version: 0.0.2
+    - apiVersion: v1
+      appVersion: 0.0.1
+      created: "2020-05-27T09:41:29.261497397+02:00"
+      description: A Helm chart for Kubernetes
+      digest: 92049e94fecd21992590f77d8da28b3bdef8b7dc17da06de2ae0aa4cb6122eef
+      name: cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.0.1/cert-manager-webhook-dnsimple-0.0.1.tgz
+      version: 0.0.1
+  paperboy:
+    - apiVersion: v2
+      appVersion: 2.6.0
+      created: "2020-04-17T10:40:03.462794042+02:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 078905fadba556182925a71f7321478caecc7424da266c49b3228c76921b1b19
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.6.0/paperboy-2.6.0.tgz
+      version: 2.6.0
+    - apiVersion: v2
+      appVersion: 2.5.0
+      created: "2020-04-16T23:12:26.370102352+02:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 8b742de5d22a717d899d15e873355019dbffce37dccb89537d7963f5aa162e82
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.5.0/paperboy-2.5.0.tgz
+      version: 2.5.0
+    - apiVersion: v2
+      appVersion: 2.4.1
+      created: "2020-02-11T16:52:30.930953797+01:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: dc925838d6bb853b2dd79941d0949468495c33858b2bc6fd2b879d60c3235b4a
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.4.1/paperboy-2.4.1.tgz
+      version: 2.4.1
+    - apiVersion: v2
+      appVersion: 2.4.0
+      created: "2020-02-11T14:18:28.206151949+01:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 4aad25bfa7d0c10a3edb9e9e2186bae1c98eb11b19a213b0e91a7b7e2ae87bf4
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.4.0/paperboy-2.4.0.tgz
+      version: 2.4.0
+    - apiVersion: v2
+      appVersion: 2.3.5
+      created: "2020-02-09T18:16:18.177292132+01:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 47ba462b86585a03eb4e2913667af3f97c5130fd79064513df300666bc2af8d4
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.3.5/paperboy-2.3.5.tgz
+      version: 2.3.5
+    - apiVersion: v2
+      appVersion: 2.3.4
+      created: "2020-02-09T16:42:30.966629278+01:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 54382b1409fa4049ba467ef54c85a5cf7e45093b1ae7aec318669952a142be54
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.3.4/paperboy-2.3.4.tgz
+      version: 2.3.4
+  papergirl:
+    - apiVersion: v1
+      appVersion: 0.13.4
+      created: "2020-07-23T01:18:31.492870298+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 77f5c3d68be2b7cff9a5f8aaef8ffe41832a22755ebe44126cf73afc085d6889
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.4/papergirl-0.13.4.tgz
+      version: 0.13.4
+    - apiVersion: v1
+      appVersion: 0.13.3
+      created: "2020-07-23T01:06:58.913739378+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 9e7da648787b2c98991595614d1f300f36671150a0e02f358b236fe19de017b9
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.3/papergirl-0.13.3.tgz
+      version: 0.13.3
+    - apiVersion: v1
+      appVersion: 0.13.2
+      created: "2020-07-23T00:57:39.530895188+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 40b61a1acbc51376a5e8fd79194bcb470aea3651b245bb1d14fb00be9b03157f
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.2/papergirl-0.13.2.tgz
+      version: 0.13.2
+    - apiVersion: v1
+      appVersion: 0.13.1
+      created: "2020-07-23T00:14:15.954862372+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 8153686a43fab75fcfc4d762d17b549ebb0f6654d94ab9bfd48eb1248cd77e74
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.1/papergirl-0.13.1.tgz
+      version: 0.13.1
+    - apiVersion: v1
+      appVersion: 0.13.0
+      created: "2020-07-22T12:08:04.302883425+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 7fe17e42fac668f89d88090a260eff48846da1b438abcc18a0711ee379db06b1
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.0/papergirl-0.13.0.tgz
+      version: 0.13.0
+    - apiVersion: v1
+      appVersion: 0.12.1
+      created: "2020-07-06T16:16:26.909233639+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 7df72c609a16d88e47220c1563a257256079a57e57d7fc9e9952e7bda68bbb11
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.12.1/papergirl-0.12.1.tgz
+      version: 0.12.1
+    - apiVersion: v1
+      appVersion: 0.12.0
+      created: "2020-07-06T15:39:42.699635388+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: f5895ffcce05ab95cc8243cfe90ad121a7de15caf2bd1f3dec9fdd783d8455ed
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.12.0/papergirl-0.12.0.tgz
+      version: 0.12.0
+    - apiVersion: v1
+      appVersion: 0.11.0
+      created: "2020-06-24T17:13:43.212706392+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 850d3f6a61f757b31f8c9ed3341f18bf6901b67a07d2aebdbdadc5e8240e15f4
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.11.0/papergirl-0.11.0.tgz
+      version: 0.11.0
+    - apiVersion: v1
+      appVersion: 0.10.2
+      created: "2020-06-10T12:08:20.972423188+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: c201e862d3ac22ed4a963c38423ea0c875fd5dbee2947fb70e75bdb203079627
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.10.2/papergirl-0.10.2.tgz
+      version: 0.10.2
+    - apiVersion: v1
+      appVersion: 0.10.1
+      created: "2020-06-10T11:21:45.577024787+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: c7c913c73c0422284764d2c52e5caddb0795dbc57376655361b356b3eddd83e4
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.10.1/papergirl-0.10.1.tgz
+      version: 0.10.1
+    - apiVersion: v1
+      appVersion: 0.10.0
+      created: "2020-06-10T10:19:54.52502722+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 5a10b9f3d9a90e75ca934e8e8c38bd1f44cba7dae036c74c8a4cbf185c7b416f
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.10.0/papergirl-0.10.0.tgz
+      version: 0.10.0
+    - apiVersion: v1
+      appVersion: 0.9.1
+      created: "2020-05-08T12:03:08.822265341+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 1c14f293145f608099b7eaf31470364c430c4bc2bb59bc2add54e8df9463f8d1
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.9.1/papergirl-0.9.1.tgz
+      version: 0.9.1
+    - apiVersion: v1
+      appVersion: 0.9.0
+      created: "2020-04-30T14:22:37.276860697+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 6ad90f74653a42351edac26cd562f532214520a3ce46e647c60cdd8ac7e7f7c4
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.9.0/papergirl-0.9.0.tgz
+      version: 0.9.0
+    - apiVersion: v1
+      appVersion: 0.8.0
+      created: "2020-04-17T10:31:17.524504171+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: e3fae441e0b8434b0756c1346abe3070c5057d82b0d7b43bb9f80ccd5a1d44db
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.8.0/papergirl-0.8.0.tgz
+      version: 0.8.0
+    - apiVersion: v1
+      appVersion: 0.7.0
+      created: "2020-04-16T22:37:58.989952163+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 7006298de9d43b201384caf6e172e9283f7664da0ea2397763825a92e541e036
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.7.0/papergirl-0.7.0.tgz
+      version: 0.7.0
+    - apiVersion: v1
+      appVersion: 0.6.0
+      created: "2020-02-11T17:47:35.242131191+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 7de4fe5a244d9ca7e4b034008b9e0adac238ec1a268cfd063a159f45acfd3acd
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.6.0/papergirl-0.6.0.tgz
+      version: 0.6.0
+    - apiVersion: v1
+      appVersion: 0.5.4
+      created: "2020-02-11T16:50:47.273946574+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 8f80ffa9f18a6ee19cbd596a9880ac2a5909dffe44f960dfde0eaffddf360f3e
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.4/papergirl-0.5.4.tgz
+      version: 0.5.4
+    - apiVersion: v1
+      appVersion: 0.5.3
+      created: "2020-02-08T18:48:59.442222527+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 8dc80e49d1f9939c2eed8d1dcb5292c73d410b91640b14e1e3161102707ea6b8
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.3/papergirl-0.5.3.tgz
+      version: 0.5.3
+    - apiVersion: v1
+      appVersion: 0.5.2
+      created: "2020-02-08T18:01:08.027308868+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 5d986218cd3c9df6523fd5d7ea2e1d4177cde7163bca536fe2591ec7bd57ceff
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.2/papergirl-0.5.2.tgz
+      version: 0.5.2
+    - apiVersion: v1
+      appVersion: 0.5.1
+      created: "2020-01-31T18:21:44.5526972+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: a89cd753dd8500d1cdb424c13c455eadb7ec9affbc81821cab22b6c16b3e6f36
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.1/papergirl-0.5.1.tgz
+      version: 0.5.1
+    - apiVersion: v1
+      appVersion: 0.5.0
+      created: "2020-01-31T18:11:38.545652012+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 55cd3f3cfda39bb851006b099fa8f2897ac411c8f29abb0e708808235a75e99c
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.0/papergirl-0.5.0.tgz
+      version: 0.5.0
+    - apiVersion: v1
+      appVersion: 0.4.0
+      created: "2020-01-31T16:11:16.261034467+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 6673389d316a66f1100d14621c9edeabddc8f5eeeed2a013ca7e79c50cf18292
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.4.0/papergirl-0.4.0.tgz
+      version: 0.4.0
+    - apiVersion: v1
+      appVersion: 0.3.1
+      created: "2020-01-30T16:53:13.361006539+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 4371cb2cabe95ab6ae0ebd644e175e1730110842987a91160f4a97bf2e48a9d3
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.3.1/papergirl-0.3.1.tgz
+      version: 0.3.1
+    - apiVersion: v1
+      appVersion: 0.3.0
+      created: "2020-01-30T16:25:23.608118969+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 423861b6505c2d42a8645c1131160636951708281717d27ee35dd5acd22e20f4
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.3.0/papergirl-0.3.0.tgz
+      version: 0.3.0
+    - apiVersion: v1
+      appVersion: 0.2.0
+      created: "2020-01-30T11:04:54.669219995+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: d8e7acb08bdfb1c3fbd2646a8002cf5b99bbd74cc4601c97a39caaad06ad95bc
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.2.0/papergirl-0.2.0.tgz
+      version: 0.2.0
+    - apiVersion: v1
+      appVersion: 0.1.3
+      created: "2020-01-29T16:15:49.878229022+01:00"
+      description: A Helm chart for Kubernetes
+      digest: d2a68bbcac496a0954b87db3f5d4aac677b368f70fbe22c812fa1327e872a473
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.1.3/papergirl-0.1.3.tgz
+      version: 0.1.3
+    - apiVersion: v1
+      appVersion: 0.1.2
+      created: "2020-01-28T19:08:11.273944883+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 98831eef4c472a3fa6037998278687fcca55dcfd1da511221e3457d7093ab958
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.1.2/papergirl-0.1.2.tgz
+      version: 0.1.2
+    - apiVersion: v1
+      appVersion: 0.0.1
+      created: "2020-01-24T16:24:02.334858582+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 4b198e6ef2f9307c1ec09e541976422ff0edaf0fcbeb97553e60d10bef491c9c
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.0.1/papergirl-0.0.1.tgz
+      version: 0.0.1
+generated: 2020-07-29T18:48:36,335464541+02:00
