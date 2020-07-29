@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   cert-manager-webhook-dnsimple:
     - apiVersion: v1
+      appVersion: 0.0.3
+      created: "2020-07-29T19:29:27.27378986+02:00"
+      description: cert-manager webhook solver for ACME DNS01 challenge via DNSimple
+      digest: c681821af769c6ae29747079967544d35c2e7afb0d83ea62d03411d6db7dba07
+      home: https://github.com/neoskop/cert-manager-webhook-dnsimple
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: cert-manager-webhook-dnsimple
+      sources:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.0.3/cert-manager-webhook-dnsimple-0.0.3.tgz
+      version: 0.0.3
+    - apiVersion: v1
       appVersion: 0.0.2
       created: "2020-07-29T11:59:14.166879997+02:00"
       description: A Helm chart for Kubernetes
@@ -327,4 +343,4 @@ entries:
       urls:
         - https://github.com/neoskop/papergirl/releases/download/papergirl-0.0.1/papergirl-0.0.1.tgz
       version: 0.0.1
-generated: 2020-07-29T19:29:33,194473498+02:00
+generated: 2020-07-29T19:33:49,742870229+02:00
