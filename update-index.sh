@@ -6,7 +6,7 @@ mkdir .cr-release-packages
 
 for repo in $REPOS ; do
   mkdir $repo
-  cr index -i ./$repo -o neoskop -r $repo -c https://neoskop.github.io/$repo
+  wget -O ./$repo/index.yaml https://raw.githubusercontent.com/neoskop/$repo/gh-pages/index.yaml
 done
 
 yq m `for repo in $REPOS ; do echo $repo/index.yaml ; done` | yq w - 'generated' `date -Ins` > index.yaml
