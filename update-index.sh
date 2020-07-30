@@ -9,7 +9,7 @@ for repo in $REPOS ; do
   wget -O ./$repo/index.yaml https://raw.githubusercontent.com/neoskop/$repo/gh-pages/index.yaml
 done
 
-yq m `for repo in $REPOS ; do echo $repo/index.yaml ; done` | yq w - 'generated' `date -Ins` > index.yaml
+yq m `for repo in $REPOS ; do echo $repo/index.yaml ; done` | yq w - 'generated' `date -Ins | tr , .` > index.yaml
 rm -rf .cr-release-packages
 for repo in $REPOS ; do rm -rf $repo ; done
 git add index.yaml
