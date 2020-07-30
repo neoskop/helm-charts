@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 git checkout gh-pages
-REPOS="cert-manager-webhook-dnsimple paperboy papergirl"
+REPOS="cert-manager-webhook-dnsimple paperboy papergirl mgnl-on-k8s"
 mkdir .cr-release-packages
 
 for repo in $REPOS ; do
