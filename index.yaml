@@ -1,0 +1,784 @@
+apiVersion: v1
+entries:
+  cert-manager-webhook-dnsimple:
+    - apiVersion: v1
+      appVersion: 0.0.5
+      created: "2020-12-09T14:42:35.495007563+01:00"
+      description: cert-manager webhook solver for ACME DNS01 challenge via DNSimple
+      digest: 08dea5f4bcbb0b3b4ce36c24d9e7165b443a29883da09055c652e44fc8d6bb4c
+      home: https://github.com/neoskop/cert-manager-webhook-dnsimple
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: cert-manager-webhook-dnsimple
+      sources:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.0.5/cert-manager-webhook-dnsimple-0.0.5.tgz
+      version: 0.0.5
+    - apiVersion: v1
+      appVersion: 0.0.4
+      created: "2020-08-25T11:15:07.355920911+02:00"
+      description: cert-manager webhook solver for ACME DNS01 challenge via DNSimple
+      digest: 336bd4c551523ffe518c65c0fd85d638a34caf5f85144da23bdd8e72d8e719b5
+      home: https://github.com/neoskop/cert-manager-webhook-dnsimple
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: cert-manager-webhook-dnsimple
+      sources:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.0.4/cert-manager-webhook-dnsimple-0.0.4.tgz
+      version: 0.0.4
+    - apiVersion: v1
+      appVersion: 0.0.3
+      created: "2020-07-29T19:29:27.27378986+02:00"
+      description: cert-manager webhook solver for ACME DNS01 challenge via DNSimple
+      digest: c681821af769c6ae29747079967544d35c2e7afb0d83ea62d03411d6db7dba07
+      home: https://github.com/neoskop/cert-manager-webhook-dnsimple
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: cert-manager-webhook-dnsimple
+      sources:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.0.3/cert-manager-webhook-dnsimple-0.0.3.tgz
+      version: 0.0.3
+    - apiVersion: v1
+      appVersion: 0.0.2
+      created: "2020-07-29T11:59:14.166879997+02:00"
+      description: A Helm chart for Kubernetes
+      digest: 73e8c3acb594fd4b640b4788e402a5bd54af2e80f723465efd3640dcebb99797
+      name: cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.0.2/cert-manager-webhook-dnsimple-0.0.2.tgz
+      version: 0.0.2
+    - apiVersion: v1
+      appVersion: 0.0.1
+      created: "2020-05-27T09:41:29.261497397+02:00"
+      description: A Helm chart for Kubernetes
+      digest: 92049e94fecd21992590f77d8da28b3bdef8b7dc17da06de2ae0aa4cb6122eef
+      name: cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.0.1/cert-manager-webhook-dnsimple-0.0.1.tgz
+      version: 0.0.1
+  paperboy:
+    - apiVersion: v2
+      appVersion: 2.6.1
+      created: "2020-07-29T20:07:37.255804744+02:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 46cb4e34b6c96823b964449bb9ff29aa675ead357ffd2e1c68af832382afa092
+      home: http://paperboy.sh
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: paperboy
+      sources:
+        - https://github.com/neoskop/paperboy
+        - https://github.com/neoskop/paperboy/tree/master/paperboy-helm
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.6.1/paperboy-2.6.1.tgz
+      version: 2.6.1
+    - apiVersion: v2
+      appVersion: 2.6.0
+      created: "2020-04-17T10:40:03.462794042+02:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 078905fadba556182925a71f7321478caecc7424da266c49b3228c76921b1b19
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.6.0/paperboy-2.6.0.tgz
+      version: 2.6.0
+    - apiVersion: v2
+      appVersion: 2.5.0
+      created: "2020-04-16T23:12:26.370102352+02:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 8b742de5d22a717d899d15e873355019dbffce37dccb89537d7963f5aa162e82
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.5.0/paperboy-2.5.0.tgz
+      version: 2.5.0
+    - apiVersion: v2
+      appVersion: 2.4.1
+      created: "2020-02-11T16:52:30.930953797+01:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: dc925838d6bb853b2dd79941d0949468495c33858b2bc6fd2b879d60c3235b4a
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.4.1/paperboy-2.4.1.tgz
+      version: 2.4.1
+    - apiVersion: v2
+      appVersion: 2.4.0
+      created: "2020-02-11T14:18:28.206151949+01:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 4aad25bfa7d0c10a3edb9e9e2186bae1c98eb11b19a213b0e91a7b7e2ae87bf4
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.4.0/paperboy-2.4.0.tgz
+      version: 2.4.0
+    - apiVersion: v2
+      appVersion: 2.3.5
+      created: "2020-02-09T18:16:18.177292132+01:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 47ba462b86585a03eb4e2913667af3f97c5130fd79064513df300666bc2af8d4
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.3.5/paperboy-2.3.5.tgz
+      version: 2.3.5
+    - apiVersion: v2
+      appVersion: 2.3.4
+      created: "2020-02-09T16:42:30.966629278+01:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: 54382b1409fa4049ba467ef54c85a5cf7e45093b1ae7aec318669952a142be54
+      name: paperboy
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.3.4/paperboy-2.3.4.tgz
+      version: 2.3.4
+  papergirl:
+    - apiVersion: v1
+      appVersion: 0.17.1
+      created: "2020-12-07T09:56:21.350473307+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: dbf04b455be3b917f7be65a30c1d90678f60c484b34db48a00e56643231d009d
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.17.1/papergirl-0.17.1.tgz
+      version: 0.17.1
+    - apiVersion: v1
+      appVersion: 0.17.0
+      created: "2020-11-26T12:15:18.751494453+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 9a0ac783c86c8609752e8c08b4ff1475947d53e6e17c2ffa1635d321032b893e
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.17.0/papergirl-0.17.0.tgz
+      version: 0.17.0
+    - apiVersion: v1
+      appVersion: 0.16.0
+      created: "2020-10-20T15:36:57.301719487+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: b2bb4c9e3f1f7f3d5b11c4dc2f25e8148357df869312f86ae7be8d373050d3ad
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.16.0/papergirl-0.16.0.tgz
+      version: 0.16.0
+    - apiVersion: v1
+      appVersion: 0.15.1
+      created: "2020-10-13T10:02:25.045167385+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 62e056827dd38f97a2469223d9c9c4ce70b705586be73010df4ad5f2ab74c6a2
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.15.1/papergirl-0.15.1.tgz
+      version: 0.15.1
+    - apiVersion: v1
+      appVersion: 0.15.0
+      created: "2020-10-07T19:18:58.17395296+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 182bcfff89c9464c00c862c19409e9fe41a22bc18c8fdc45bf50b5ff49d0834e
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.15.0/papergirl-0.15.0.tgz
+      version: 0.15.0
+    - apiVersion: v1
+      appVersion: 0.14.0
+      created: "2020-09-30T14:59:26.142483277+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 689eadd14c882564b73767d888fbf2ca8e1626bafe9da0480a29c667ddf63a2b
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.14.0/papergirl-0.14.0.tgz
+      version: 0.14.0
+    - apiVersion: v1
+      appVersion: 0.13.8
+      created: "2020-09-30T12:00:32.36838153+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 1aca914633ce2d4acd4e26f8d462c41f51bd3c12fbbc211d96899375d330aed3
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.8/papergirl-0.13.8.tgz
+      version: 0.13.8
+    - apiVersion: v1
+      appVersion: 0.13.7
+      created: "2020-09-02T10:46:40.940881744+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: eb006f75eab7c0e7bb0331f94da6e888ca0827f20142df49ff86474eff0fcd54
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.7/papergirl-0.13.7.tgz
+      version: 0.13.7
+    - apiVersion: v1
+      appVersion: 0.13.6
+      created: "2020-07-30T14:07:01.820832303+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 72f55ce7ac83788e4ba200e178ca30a13e85f70e9b1b220a1ac6b4ea0b50af64
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.6/papergirl-0.13.6.tgz
+      version: 0.13.6
+    - apiVersion: v1
+      appVersion: 0.13.5
+      created: "2020-07-29T19:33:44.144972975+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: a57d76bc597da249990db7f21a94b4e64bfc20af14bbd1b569e58a974db1d3c0
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.5/papergirl-0.13.5.tgz
+      version: 0.13.5
+    - apiVersion: v1
+      appVersion: 0.13.4
+      created: "2020-07-23T01:18:31.492870298+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 77f5c3d68be2b7cff9a5f8aaef8ffe41832a22755ebe44126cf73afc085d6889
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.4/papergirl-0.13.4.tgz
+      version: 0.13.4
+    - apiVersion: v1
+      appVersion: 0.13.3
+      created: "2020-07-23T01:06:58.913739378+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 9e7da648787b2c98991595614d1f300f36671150a0e02f358b236fe19de017b9
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.3/papergirl-0.13.3.tgz
+      version: 0.13.3
+    - apiVersion: v1
+      appVersion: 0.13.2
+      created: "2020-07-23T00:57:39.530895188+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 40b61a1acbc51376a5e8fd79194bcb470aea3651b245bb1d14fb00be9b03157f
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.2/papergirl-0.13.2.tgz
+      version: 0.13.2
+    - apiVersion: v1
+      appVersion: 0.13.1
+      created: "2020-07-23T00:14:15.954862372+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 8153686a43fab75fcfc4d762d17b549ebb0f6654d94ab9bfd48eb1248cd77e74
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.1/papergirl-0.13.1.tgz
+      version: 0.13.1
+    - apiVersion: v1
+      appVersion: 0.13.0
+      created: "2020-07-22T12:08:04.302883425+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 7fe17e42fac668f89d88090a260eff48846da1b438abcc18a0711ee379db06b1
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.13.0/papergirl-0.13.0.tgz
+      version: 0.13.0
+    - apiVersion: v1
+      appVersion: 0.12.1
+      created: "2020-07-06T16:16:26.909233639+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 7df72c609a16d88e47220c1563a257256079a57e57d7fc9e9952e7bda68bbb11
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.12.1/papergirl-0.12.1.tgz
+      version: 0.12.1
+    - apiVersion: v1
+      appVersion: 0.12.0
+      created: "2020-07-06T15:39:42.699635388+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: f5895ffcce05ab95cc8243cfe90ad121a7de15caf2bd1f3dec9fdd783d8455ed
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.12.0/papergirl-0.12.0.tgz
+      version: 0.12.0
+    - apiVersion: v1
+      appVersion: 0.11.0
+      created: "2020-06-24T17:13:43.212706392+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 850d3f6a61f757b31f8c9ed3341f18bf6901b67a07d2aebdbdadc5e8240e15f4
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.11.0/papergirl-0.11.0.tgz
+      version: 0.11.0
+    - apiVersion: v1
+      appVersion: 0.10.2
+      created: "2020-06-10T12:08:20.972423188+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: c201e862d3ac22ed4a963c38423ea0c875fd5dbee2947fb70e75bdb203079627
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.10.2/papergirl-0.10.2.tgz
+      version: 0.10.2
+    - apiVersion: v1
+      appVersion: 0.10.1
+      created: "2020-06-10T11:21:45.577024787+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: c7c913c73c0422284764d2c52e5caddb0795dbc57376655361b356b3eddd83e4
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.10.1/papergirl-0.10.1.tgz
+      version: 0.10.1
+    - apiVersion: v1
+      appVersion: 0.10.0
+      created: "2020-06-10T10:19:54.52502722+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 5a10b9f3d9a90e75ca934e8e8c38bd1f44cba7dae036c74c8a4cbf185c7b416f
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.10.0/papergirl-0.10.0.tgz
+      version: 0.10.0
+    - apiVersion: v1
+      appVersion: 0.9.1
+      created: "2020-05-08T12:03:08.822265341+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 1c14f293145f608099b7eaf31470364c430c4bc2bb59bc2add54e8df9463f8d1
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.9.1/papergirl-0.9.1.tgz
+      version: 0.9.1
+    - apiVersion: v1
+      appVersion: 0.9.0
+      created: "2020-04-30T14:22:37.276860697+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 6ad90f74653a42351edac26cd562f532214520a3ce46e647c60cdd8ac7e7f7c4
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.9.0/papergirl-0.9.0.tgz
+      version: 0.9.0
+    - apiVersion: v1
+      appVersion: 0.8.0
+      created: "2020-04-17T10:31:17.524504171+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: e3fae441e0b8434b0756c1346abe3070c5057d82b0d7b43bb9f80ccd5a1d44db
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.8.0/papergirl-0.8.0.tgz
+      version: 0.8.0
+    - apiVersion: v1
+      appVersion: 0.7.0
+      created: "2020-04-16T22:37:58.989952163+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 7006298de9d43b201384caf6e172e9283f7664da0ea2397763825a92e541e036
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.7.0/papergirl-0.7.0.tgz
+      version: 0.7.0
+    - apiVersion: v1
+      appVersion: 0.6.0
+      created: "2020-02-11T17:47:35.242131191+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 7de4fe5a244d9ca7e4b034008b9e0adac238ec1a268cfd063a159f45acfd3acd
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.6.0/papergirl-0.6.0.tgz
+      version: 0.6.0
+    - apiVersion: v1
+      appVersion: 0.5.4
+      created: "2020-02-11T16:50:47.273946574+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 8f80ffa9f18a6ee19cbd596a9880ac2a5909dffe44f960dfde0eaffddf360f3e
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.4/papergirl-0.5.4.tgz
+      version: 0.5.4
+    - apiVersion: v1
+      appVersion: 0.5.3
+      created: "2020-02-08T18:48:59.442222527+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 8dc80e49d1f9939c2eed8d1dcb5292c73d410b91640b14e1e3161102707ea6b8
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.3/papergirl-0.5.3.tgz
+      version: 0.5.3
+    - apiVersion: v1
+      appVersion: 0.5.2
+      created: "2020-02-08T18:01:08.027308868+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 5d986218cd3c9df6523fd5d7ea2e1d4177cde7163bca536fe2591ec7bd57ceff
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.2/papergirl-0.5.2.tgz
+      version: 0.5.2
+    - apiVersion: v1
+      appVersion: 0.5.1
+      created: "2020-01-31T18:21:44.5526972+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: a89cd753dd8500d1cdb424c13c455eadb7ec9affbc81821cab22b6c16b3e6f36
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.1/papergirl-0.5.1.tgz
+      version: 0.5.1
+    - apiVersion: v1
+      appVersion: 0.5.0
+      created: "2020-01-31T18:11:38.545652012+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 55cd3f3cfda39bb851006b099fa8f2897ac411c8f29abb0e708808235a75e99c
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.5.0/papergirl-0.5.0.tgz
+      version: 0.5.0
+    - apiVersion: v1
+      appVersion: 0.4.0
+      created: "2020-01-31T16:11:16.261034467+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 6673389d316a66f1100d14621c9edeabddc8f5eeeed2a013ca7e79c50cf18292
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.4.0/papergirl-0.4.0.tgz
+      version: 0.4.0
+    - apiVersion: v1
+      appVersion: 0.3.1
+      created: "2020-01-30T16:53:13.361006539+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 4371cb2cabe95ab6ae0ebd644e175e1730110842987a91160f4a97bf2e48a9d3
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.3.1/papergirl-0.3.1.tgz
+      version: 0.3.1
+    - apiVersion: v1
+      appVersion: 0.3.0
+      created: "2020-01-30T16:25:23.608118969+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 423861b6505c2d42a8645c1131160636951708281717d27ee35dd5acd22e20f4
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.3.0/papergirl-0.3.0.tgz
+      version: 0.3.0
+    - apiVersion: v1
+      appVersion: 0.2.0
+      created: "2020-01-30T11:04:54.669219995+01:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: d8e7acb08bdfb1c3fbd2646a8002cf5b99bbd74cc4601c97a39caaad06ad95bc
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.2.0/papergirl-0.2.0.tgz
+      version: 0.2.0
+    - apiVersion: v1
+      appVersion: 0.1.3
+      created: "2020-01-29T16:15:49.878229022+01:00"
+      description: A Helm chart for Kubernetes
+      digest: d2a68bbcac496a0954b87db3f5d4aac677b368f70fbe22c812fa1327e872a473
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.1.3/papergirl-0.1.3.tgz
+      version: 0.1.3
+    - apiVersion: v1
+      appVersion: 0.1.2
+      created: "2020-01-28T19:08:11.273944883+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 98831eef4c472a3fa6037998278687fcca55dcfd1da511221e3457d7093ab958
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.1.2/papergirl-0.1.2.tgz
+      version: 0.1.2
+    - apiVersion: v1
+      appVersion: 0.0.1
+      created: "2020-01-24T16:24:02.334858582+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 4b198e6ef2f9307c1ec09e541976422ff0edaf0fcbeb97553e60d10bef491c9c
+      name: papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-0.0.1/papergirl-0.0.1.tgz
+      version: 0.0.1
+  mgnl:
+    - apiVersion: v2
+      appVersion: 0.11.0
+      created: "2021-01-12T23:02:14.322802071+01:00"
+      description: Run Magnolia CMS on Kubernetes in production
+      digest: 80a4ca707f2ae11f1c28b8a1eaa9ba279b957fe99b1fa8d6365cdb5cef6543fb
+      home: https://github.com/neoskop/mgnl-on-k8s
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: mgnl
+      sources:
+        - https://github.com/neoskop/mgnl-on-k8s
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.11.0/mgnl-0.11.0.tgz
+      version: 0.11.0
+    - apiVersion: v2
+      appVersion: 0.10.4
+      created: "2020-09-28T15:29:48.008077037+02:00"
+      description: Run Magnolia CMS on Kubernetes in production
+      digest: 76b2bbf1c36af9a8ce6f819253d00d4e75a77c10dc0237758b1ac373f65cebc9
+      home: https://github.com/neoskop/mgnl-on-k8s
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: mgnl
+      sources:
+        - https://github.com/neoskop/mgnl-on-k8s
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.10.4/mgnl-0.10.4.tgz
+      version: 0.10.4
+    - apiVersion: v2
+      appVersion: 0.10.3
+      created: "2020-07-30T16:01:30.347780481+02:00"
+      description: Run Magnolia CMS on Kubernetes in production
+      digest: cce08400cda481df51bc1316e2ccd9a1ebaa9db6bf089c140f60bd4d4c491038
+      home: https://github.com/neoskop/mgnl-on-k8s
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: mgnl
+      sources:
+        - https://github.com/neoskop/mgnl-on-k8s
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.10.3/mgnl-0.10.3.tgz
+      version: 0.10.3
+    - apiVersion: v2
+      appVersion: 0.10.2
+      created: "2020-07-28T14:24:20.93350959+02:00"
+      description: A Helm chart for Kubernetes
+      digest: e7e6e50c69fda82c15abfd9ff4e47de9256b4de14c427634fe2daef0c2c8530a
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.10.2/mgnl-0.10.2.tgz
+      version: 0.10.2
+    - apiVersion: v2
+      appVersion: 0.10.1
+      created: "2020-07-28T14:00:31.710490895+02:00"
+      description: A Helm chart for Kubernetes
+      digest: 9b7a28d31562d84650192b111cf0ef9365652d40b17dabee292d5ab400e20509
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.10.1/mgnl-0.10.1.tgz
+      version: 0.10.1
+    - apiVersion: v2
+      appVersion: 0.10.0
+      created: "2020-07-28T13:18:18.104901868+02:00"
+      description: A Helm chart for Kubernetes
+      digest: cefda245928daa251d5d691ef2884529b3343d6a5a36f0d4481be76592ae53c0
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.10.0/mgnl-0.10.0.tgz
+      version: 0.10.0
+    - apiVersion: v2
+      appVersion: 0.9.1
+      created: "2020-05-08T12:00:10.137290387+02:00"
+      description: A Helm chart for Kubernetes
+      digest: ba0b014baa021d5a5cd818595017f7b9e8725ac53186bbf9e23750cdbc0a3455
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.9.1/mgnl-0.9.1.tgz
+      version: 0.9.1
+    - apiVersion: v2
+      appVersion: 0.9.0
+      created: "2020-04-20T16:39:00.842423241+02:00"
+      description: A Helm chart for Kubernetes
+      digest: d68006c4c6a244591b51bbc20469328b5816047cc9e31fdcf6c6b0a4a7e15a30
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.9.0/mgnl-0.9.0.tgz
+      version: 0.9.0
+    - apiVersion: v2
+      appVersion: 0.8.0
+      created: "2020-04-20T15:07:03.609619763+02:00"
+      description: A Helm chart for Kubernetes
+      digest: 82b57e048bbd15ddbce40608397fa4fbf2fb6a3e1fcf5af5085dce70e207f5d8
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.8.0/mgnl-0.8.0.tgz
+      version: 0.8.0
+    - apiVersion: v2
+      appVersion: 0.7.0
+      created: "2020-04-17T10:26:06.236554447+02:00"
+      description: A Helm chart for Kubernetes
+      digest: 2f761410cb5b22bd9742d62458d9b407f9eac8c5b2cfcdad907a8b3dcc79ab6b
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.7.0/mgnl-0.7.0.tgz
+      version: 0.7.0
+    - apiVersion: v2
+      appVersion: 0.6.0
+      created: "2020-04-16T22:13:36.293370913+02:00"
+      description: A Helm chart for Kubernetes
+      digest: c24b8608640a9f35d7ff45a0b870baa7f9d23bedba5374b22a3109949db37932
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.6.0/mgnl-0.6.0.tgz
+      version: 0.6.0
+    - apiVersion: v2
+      appVersion: 0.5.2
+      created: "2020-02-20T18:45:06.525604757+01:00"
+      description: A Helm chart for Kubernetes
+      digest: fe914479ccdb42b61a9007dc0b668add7270aeb8ee81f0f6559bbac042aa3030
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.5.2/mgnl-0.5.2.tgz
+      version: 0.5.2
+    - apiVersion: v2
+      appVersion: 0.5.1
+      created: "2020-02-20T18:22:34.268178814+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 5b95845bd8deb4e8515bae88eed1850b6fb536b5577a3dec6b3e162952f8e7a1
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.5.1/mgnl-0.5.1.tgz
+      version: 0.5.1
+    - apiVersion: v2
+      appVersion: 0.5.0
+      created: "2020-02-19T15:42:53.49451761+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 5a9027d6ff54fb291c9284a4b2ee8a58cc5ba674f918e37d2ded910942bb0222
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.5.0/mgnl-0.5.0.tgz
+      version: 0.5.0
+    - apiVersion: v2
+      appVersion: 0.4.0
+      created: "2020-02-13T17:04:23.199140055+01:00"
+      description: A Helm chart for Kubernetes
+      digest: ec54021c30cd2ae3ad266b471f4f6267be13d71a9f0970927283c1711516f697
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.4.0/mgnl-0.4.0.tgz
+      version: 0.4.0
+    - apiVersion: v2
+      appVersion: 0.3.5
+      created: "2020-02-08T18:43:36.226421932+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 5daa01a37c11a38fbb20eee20048330da84838553eb98ef89084a9e5329c5aba
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.3.5/mgnl-0.3.5.tgz
+      version: 0.3.5
+    - apiVersion: v2
+      appVersion: 0.3.3
+      created: "2020-02-08T17:54:55.516698903+01:00"
+      description: A Helm chart for Kubernetes
+      digest: cc63b616d894d1a7152fd779abb69791df7b74b73da8c1d0f029afe76415673b
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.3.3/mgnl-0.3.3.tgz
+      version: 0.3.3
+    - apiVersion: v2
+      appVersion: 0.3.2
+      created: "2020-02-08T17:20:05.468807233+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 0830d5ffa2d4523ab7ec9443e567e520c3198dd774205ecee8a6b11cf600bf3f
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.3.2/mgnl-0.3.2.tgz
+      version: 0.3.2
+    - apiVersion: v2
+      appVersion: 0.3.1
+      created: "2020-02-08T17:04:35.615692548+01:00"
+      description: A Helm chart for Kubernetes
+      digest: f3c1e488a9e51e5204c0b3a6011b310fffe741d188cfc5193e0fd6d9eab2d8c1
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.3.1/mgnl-0.3.1.tgz
+      version: 0.3.1
+    - apiVersion: v2
+      appVersion: 0.3.0
+      created: "2020-02-08T16:21:09.154316062+01:00"
+      description: A Helm chart for Kubernetes
+      digest: f3801e8f9681712a3d20900c42d055c6841f2657bcab866d194efc27cc3ef34c
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.3.0/mgnl-0.3.0.tgz
+      version: 0.3.0
+    - apiVersion: v2
+      appVersion: 0.2.0
+      created: "2020-02-08T16:09:14.561965259+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 6ecc823ab0522a1a153e8392480a6d46301c0664d546d5756fbcc12aaec1b3d5
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.2.0/mgnl-0.2.0.tgz
+      version: 0.2.0
+    - apiVersion: v2
+      appVersion: 0.1.0
+      created: "2020-02-06T23:25:07.710487847+01:00"
+      description: A Helm chart for Kubernetes
+      digest: 59e9b77d931a188cd08feb318f2536ad678308dd109b6b736824a7ac807a9995
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.1.0/mgnl-0.1.0.tgz
+      version: 0.1.0
+    - apiVersion: v2
+      appVersion: 0.0.2
+      created: "2020-02-06T17:22:56.221750467+01:00"
+      description: A Helm chart for Kubernetes
+      digest: d54e490aa6f7ea24deb77ab055dbbe453d2b68b935c80d586ca4e610b88bc22c
+      name: mgnl
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.0.2/mgnl-0.0.2.tgz
+      version: 0.0.2
+generated: "2021-01-12T23:51:39.945436391+01:00"
