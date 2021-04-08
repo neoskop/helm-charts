@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   cert-manager-webhook-dnsimple:
     - apiVersion: v1
+      appVersion: 0.1.0
+      created: "2021-03-25T10:40:40.625454956+01:00"
+      description: cert-manager webhook solver for ACME DNS01 challenge via DNSimple
+      digest: 321260a712faf8ccb80b9d8325b452fcba18e50d62337b67082540f388253265
+      home: https://github.com/neoskop/cert-manager-webhook-dnsimple
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: cert-manager-webhook-dnsimple
+      sources:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple
+      urls:
+        - https://github.com/neoskop/cert-manager-webhook-dnsimple/releases/download/cert-manager-webhook-dnsimple-0.1.0/cert-manager-webhook-dnsimple-0.1.0.tgz
+      version: 0.1.0
+    - apiVersion: v1
       appVersion: 0.0.5
       created: "2020-12-09T14:42:35.495007563+01:00"
       description: cert-manager webhook solver for ACME DNS01 challenge via DNSimple
@@ -140,6 +156,22 @@ entries:
         - https://github.com/neoskop/paperboy/releases/download/paperboy-2.3.4/paperboy-2.3.4.tgz
       version: 2.3.4
   papergirl:
+    - apiVersion: v1
+      appVersion: 1.0.0
+      created: "2021-04-08T16:44:42.500510131+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 4e7233be68934ffe2ed03e0853b5f12fc0d9b60912102ee5b275effef4aa7f9e
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-1.0.0/papergirl-1.0.0.tgz
+      version: 1.0.0
     - apiVersion: v1
       appVersion: 0.19.0
       created: "2021-03-11T15:29:58.608227305+01:00"
@@ -618,6 +650,23 @@ entries:
       version: 0.0.1
   mgnl:
     - apiVersion: v2
+      appVersion: 0.11.3
+      created: "2021-04-07T11:04:16.415155451+02:00"
+      description: Run Magnolia CMS on Kubernetes in production
+      digest: 10f5dd572648a9d82263871e892bae6a617d9d5cab0d7848fb87ace024bbad23
+      home: https://github.com/neoskop/mgnl-on-k8s
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: mgnl
+      sources:
+        - https://github.com/neoskop/mgnl-on-k8s
+      type: application
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.11.3/mgnl-0.11.3.tgz
+      version: 0.11.3
+    - apiVersion: v2
       appVersion: 0.11.2
       created: "2021-01-26T13:54:49.920240371+01:00"
       description: Run Magnolia CMS on Kubernetes in production
@@ -877,4 +926,4 @@ entries:
       urls:
         - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.0.2/mgnl-0.0.2.tgz
       version: 0.0.2
-generated: "2021-03-11T15:30:02.097767415+01:00"
+generated: "2021-04-08T16:44:46.008679347+02:00"
