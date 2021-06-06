@@ -175,6 +175,22 @@ entries:
       version: 2.3.4
   papergirl:
     - apiVersion: v1
+      appVersion: 1.3.0
+      created: "2021-06-06T23:14:22.600240075+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: ee43a1fd07f79fc6248e16e8b4fa2bedb8a5d1906d2c24a0aeb37ccc77012d8a
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-1.3.0/papergirl-1.3.0.tgz
+      version: 1.3.0
+    - apiVersion: v1
       appVersion: 1.2.0
       created: "2021-06-06T21:15:06.365117837+02:00"
       description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
@@ -992,4 +1008,4 @@ entries:
       urls:
         - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.0.2/mgnl-0.0.2.tgz
       version: 0.0.2
-generated: "2021-06-06T21:15:11.356334314+02:00"
+generated: "2021-06-06T23:14:26.275016553+02:00"
