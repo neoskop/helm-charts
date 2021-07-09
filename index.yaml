@@ -85,6 +85,24 @@ entries:
       version: 0.0.1
   paperboy:
     - apiVersion: v2
+      appVersion: 2.6.4
+      created: "2021-07-08T18:29:06.249054407+02:00"
+      description: A Helm chart to deploy the paperboy push service and optionally a queue
+      digest: f236899f47ca207b8e393efd09b5009d8452479c1dbbd236934465e1d0d1c705
+      home: http://paperboy.sh
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: paperboy
+      sources:
+        - https://github.com/neoskop/paperboy
+        - https://github.com/neoskop/paperboy/tree/master/paperboy-helm
+      type: application
+      urls:
+        - https://github.com/neoskop/paperboy/releases/download/paperboy-2.6.4/paperboy-2.6.4.tgz
+      version: 2.6.4
+    - apiVersion: v2
       appVersion: 2.6.3
       created: "2021-07-08T17:59:25.154068376+02:00"
       description: A Helm chart to deploy the paperboy push service and optionally a queue
@@ -192,6 +210,22 @@ entries:
         - https://github.com/neoskop/paperboy/releases/download/paperboy-2.3.4/paperboy-2.3.4.tgz
       version: 2.3.4
   papergirl:
+    - apiVersion: v1
+      appVersion: 1.5.2
+      created: "2021-07-09T11:31:37.657093383+02:00"
+      description: Sets up high-available delivery tier with Papergirl optionally and NATS and MinIO
+      digest: 394fc9c1cbae2ecffd2e39f1f95eaab4ad3126ba03603bf0244efcefbf7976b7
+      home: https://github.com/neoskop/papergirl
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: papergirl
+      sources:
+        - https://github.com/neoskop/papergirl
+      urls:
+        - https://github.com/neoskop/papergirl/releases/download/papergirl-1.5.2/papergirl-1.5.2.tgz
+      version: 1.5.2
     - apiVersion: v1
       appVersion: 1.5.1
       created: "2021-07-08T18:19:52.340162707+02:00"
@@ -1240,4 +1274,4 @@ entries:
       urls:
         - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.0.2/mgnl-0.0.2.tgz
       version: 0.0.2
-generated: "2021-07-08T18:19:56.096031594+02:00"
+generated: "2021-07-09T11:31:41.699711378+02:00"
