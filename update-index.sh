@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ef
 git checkout gh-pages
-REPOS="paperboy papergirl mgnl-on-k8s"
+REPOS="ixy paperboy papergirl mgnl-on-k8s"
 
 for repo in $REPOS ; do
   mkdir $repo
