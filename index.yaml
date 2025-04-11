@@ -2,6 +2,26 @@ apiVersion: v1
 entries:
   ixy:
     - apiVersion: v2
+      appVersion: 0.7.1
+      created: "2025-04-11T13:27:18.939231463+02:00"
+      description: Helm chart to deploy ixy cluster
+      digest: b36ecc10d5eda9c909fb823b2dad026656dd422ff7ff5aaaec06f5b09133b436
+      name: ixy
+      type: application
+      urls:
+        - https://github.com/neoskop/ixy/releases/download/ixy-0.7.1/ixy-0.7.1.tgz
+      version: 0.7.1
+    - apiVersion: v2
+      appVersion: 0.7.0
+      created: "2025-04-11T13:14:31.718093031+02:00"
+      description: Helm chart to deploy ixy cluster
+      digest: bc349abbbfb094e039ac77c98e7e10a32fa2b885580ea9eb8edf52595e84290d
+      name: ixy
+      type: application
+      urls:
+        - https://github.com/neoskop/ixy/releases/download/ixy-0.7.0/ixy-0.7.0.tgz
+      version: 0.7.0
+    - apiVersion: v2
       appVersion: 0.6.4
       created: "2024-05-02T10:51:45.454056482+02:00"
       description: Helm chart to deploy ixy cluster
@@ -2879,4 +2899,4 @@ entries:
       urls:
         - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.0.2/mgnl-0.0.2.tgz
       version: 0.0.2
-generated: "2025-04-10T21:43:56.616153769+02:00"
+generated: "2025-04-11T13:27:35.358685094+02:00"
