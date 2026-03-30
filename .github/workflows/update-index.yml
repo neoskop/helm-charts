@@ -1,0 +1,95 @@
+name: Update Global Helm Index
+
+on:
+  repository_dispatch:
+    types: [update-index]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Download and merge indices
+        run: |
+          REPOS="ixy paperboy papergirl mgnl-on-k8s"
+
+          for repo in $REPOS; do
+            echo "Fetching index from $repo..."
+            mkdir -p "$repo"
+            for i in $(seq 1 6); do
+              if curl -sf "https://neoskop.github.io/${repo}/index.yaml" -o "./${repo}/index.yaml"; then
+                echo "  Downloaded index for $repo"
+                break
+              fi
+              echo "  Retry $i for $repo..."
+              sleep 10
+            done
+
+            if [ ! -f "./${repo}/index.yaml" ]; then
+              echo "::error::Failed to download index for $repo"
+              exit 1
+            fi
+          done
+
+          # Merge all indices
+          REPOS_ARR=( $REPOS )
+          YQ_EXPR=""
+          for ((i=0; i<${#REPOS_ARR[@]}; i++)); do
+            YQ_EXPR="${YQ_EXPR}select(fi == $i)"
+            if [ "$i" -ne "$((${#REPOS_ARR[@]} - 1))" ]; then
+              YQ_EXPR="${YQ_EXPR} * "
+            fi
+          done
+
+          yq eval-all "$YQ_EXPR" $(for repo in $REPOS; do echo "$repo/index.yaml"; done) \
+            | yq eval ".generated=\"$(date -Ins | tr , .)\"" - > index.yaml
+
+          for repo in $REPOS; do rm -rf "$repo"; done
+
+      - name: Verify merged index
+        run: |
+          entry_count=$(yq eval '.entries | length' index.yaml)
+          if [ "$entry_count" -eq 0 ]; then
+            echo "::error::Merged index has no entries"
+            exit 1
+          fi
+          echo "Merged index contains $entry_count chart(s)"
+
+          # If triggered by repository_dispatch, verify the triggering version is present
+          if [ -n "${{ github.event.client_payload.version }}" ]; then
+            expected_version="${{ github.event.client_payload.version }}"
+            echo "Verifying version $expected_version is in merged index..."
+            found=$(yq eval ".entries.mgnl[] | select(.version == \"$expected_version\") | .version" index.yaml 2>/dev/null || echo "")
+            if [ "$found" = "$expected_version" ]; then
+              echo "Confirmed: version $expected_version present in index"
+            else
+              echo "::warning::Version $expected_version not found in index"
+            fi
+          fi
+
+      - name: Commit and push
+        run: |
+          git add index.yaml
+          if git diff --cached --quiet; then
+            echo "No changes to index.yaml"
+            exit 0
+          fi
+          git commit -m "chore: Update chart index."
+          git push
