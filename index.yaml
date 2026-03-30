@@ -1768,6 +1768,23 @@ entries:
       version: 0.0.1
   mgnl:
     - apiVersion: v2
+      appVersion: 2.1.6
+      created: "2026-03-30T11:21:02.641394669+02:00"
+      description: Run Magnolia CMS on Kubernetes in production
+      digest: d2498dacf6b8c2be537444a160a9bd80f124c5eb921790f669dc395f1253113e
+      home: https://github.com/neoskop/mgnl-on-k8s
+      maintainers:
+        - email: diekmann@neoskop.de
+          name: Arne Diekmann
+          url: https://www.neoskop.de
+      name: mgnl
+      sources:
+        - https://github.com/neoskop/mgnl-on-k8s
+      type: application
+      urls:
+        - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-2.1.6/mgnl-2.1.6.tgz
+      version: 2.1.6
+    - apiVersion: v2
       appVersion: 2.1.5
       created: "2026-03-30T11:16:29.852644603+02:00"
       description: Run Magnolia CMS on Kubernetes in production
@@ -3421,4 +3438,4 @@ entries:
       urls:
         - https://github.com/neoskop/mgnl-on-k8s/releases/download/mgnl-0.0.2/mgnl-0.0.2.tgz
       version: 0.0.2
-generated: "2026-03-30T11:21:04.464381194+02:00"
+generated: "2026-03-30T11:24:32.040909779+02:00"
