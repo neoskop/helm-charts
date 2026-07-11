@@ -27,14 +27,24 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Download and merge indices
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           REPOS="ixy paperboy papergirl mgnl-on-k8s"
 
           for repo in $REPOS; do
             echo "Fetching index from $repo..."
             mkdir -p "$repo"
+            # Read straight from the gh-pages branch via the API, NOT GitHub Pages:
+            # Pages adds a build delay + a 10-min Fastly cache, so new releases
+            # were silently merged from a stale index. The branch is authoritative.
             for i in $(seq 1 6); do
-              if curl -sf "https://neoskop.github.io/${repo}/index.yaml" -o "./${repo}/index.yaml"; then
+              if curl -sf \
+                -H "Authorization: Bearer $GH_TOKEN" \
+                -H "Accept: application/vnd.github.raw" \
+                -H "X-GitHub-Api-Version: 2022-11-28" \
+                "https://api.github.com/repos/neoskop/${repo}/contents/index.yaml?ref=gh-pages" \
+                -o "./${repo}/index.yaml"; then
                 echo "  Downloaded index for $repo"
                 break
               fi
@@ -64,6 +74,8 @@ jobs:
           for repo in $REPOS; do rm -rf "$repo"; done
 
       - name: Verify merged index
+        env:
+          EXPECTED_VERSION: ${{ github.event.client_payload.version }}
         run: |
           entry_count=$(yq eval '.entries | length' index.yaml)
           if [ "$entry_count" -eq 0 ]; then
@@ -73,14 +85,13 @@ jobs:
           echo "Merged index contains $entry_count chart(s)"
 
           # If triggered by repository_dispatch, verify the triggering version is present
-          if [ -n "${{ github.event.client_payload.version }}" ]; then
-            expected_version="${{ github.event.client_payload.version }}"
-            echo "Verifying version $expected_version is in merged index..."
-            found=$(yq eval ".entries.mgnl[] | select(.version == \"$expected_version\") | .version" index.yaml 2>/dev/null || echo "")
-            if [ "$found" = "$expected_version" ]; then
-              echo "Confirmed: version $expected_version present in index"
+          if [ -n "$EXPECTED_VERSION" ]; then
+            echo "Verifying version $EXPECTED_VERSION is in merged index..."
+            found=$(EXPECTED_VERSION="$EXPECTED_VERSION" yq eval '.entries[][] | select(.version == env(EXPECTED_VERSION)) | .version' index.yaml 2>/dev/null | head -1 || echo "")
+            if [ "$found" = "$EXPECTED_VERSION" ]; then
+              echo "Confirmed: version $EXPECTED_VERSION present in index"
             else
-              echo "::warning::Version $expected_version not found in index"
+              echo "::warning::Version $EXPECTED_VERSION not found in index"
             fi
           fi
 
